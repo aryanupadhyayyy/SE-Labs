@@ -1,0 +1,17 @@
+Issue ID,Work type,Summary,Description,Priority,Story Points,Parent,Sprint
+1,Epic,Epic 1: Customer Ordering Experience,"Enable customers to browse, customise and place coffee orders through an intuitive self-service touch screen.",High,,,
+2,Epic,Epic 2: Payment & Receipt,Let customers pay securely by credit card and receive a printed receipt that proves the purchase.,High,,,
+3,Epic,Epic 3: Menu & Price Administration,Allow the cafe manager to maintain menu items and prices without developer help.,High,,,
+4,Epic,Epic 4: Kiosk Performance,Keep the kiosk fast enough to serve peak-hour queues.,High,,,
+5,Story,Story 1.1: Coffee Selection,"As a customer, I want to browse and select from Espresso, Americano and Latte, so that I can choose my preferred beverage.",High,3,1,CK Sprint 1
+6,Story,Story 1.2: Size Selection,"As a customer, I want to choose Small or Large and see the price for that size, so that I pay the right amount for the portion I want.",High,2,1,CK Sprint 1
+7,Story,Story 1.3: Order Summary,"As a customer, I want to review my coffee, size and total before paying, so that I can catch mistakes before I am charged.",Medium,2,1,CK Sprint 1
+8,Story,Story 1.4: Cancel Order,"As a customer, I want to cancel my order at any step before payment, so that I am never charged for an order I no longer want.",Medium,1,1,CK Sprint 2
+9,Story,Story 2.1: Credit Card Payment,"As a customer, I want to pay for my order with a credit card, so that I can complete my purchase at the kiosk.",Highest,8,2,CK Sprint 1
+10,Story,Story 2.2: Declined Card Handling,"As a customer, I want to be told when my card is declined and try another card once, so that I can still get my coffee.",High,5,2,CK Sprint 2
+11,Story,Story 2.3: Printed Receipt,"As a customer, I want to receive a printed receipt with my order number, so that I can collect my drink and keep proof of purchase.",High,3,2,CK Sprint 1
+12,Story,Story 2.4: Secure Card Handling,"As a cafe owner, I want card numbers and CVVs never to be stored on the kiosk, so that customers can trust the kiosk and we stay PCI-DSS compliant.",High,5,2,CK Sprint 2
+13,Story,Story 3.1: Admin Login,"As a cafe manager, I want to log in to an admin screen with a PIN, so that only staff can change the menu.",Medium,3,3,CK Sprint 2
+14,Story,Story 3.2: Update Prices,"As a cafe manager, I want to edit the price of any menu item, so that the kiosk always shows current prices.",Medium,3,3,CK Sprint 2
+15,Story,Story 3.3: Enable/Disable Items,"As a cafe manager, I want to disable an item when it is out of stock, so that customers cannot order drinks we cannot make.",Low,2,3,
+16,Story,Story 4.1: Fast Checkout,"As a customer in a peak-hour queue, I want to finish my order in under 60 seconds, so that I do not hold up the people behind me.",High,5,4,
